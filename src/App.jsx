@@ -44,6 +44,17 @@ function App() {
 
     return (
         <main className="main">
+            <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/488ceQWoGGw?si=tyhp0-PemXJu-_kC"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+            ></iframe>
+
             <h1 className="heading">Chat UI với React + OpenAI</h1>
             <form
                 className="form"
